@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Distance Calculator</title>
+	<script type="text/javascript">
+		function reset(){
+			window.location = "distance.html";
+		}
+	</script>
+</head>
+<body>
+<h1> Distance Converter </h1>
+<form method="post" action="distance.php">
+	Enter Value: <input type="text" id="distval" name="distval">
+	<br>
+	Kilometer to Mile <input type="radio" name="conversion" value="tomile" checked>
+	Mile to Kilometers <input type="radio" name="conversion" value="tokm">
+	<br>
+	<input type="submit" name="Submit">
+</form>
+<button onclick="reset()">Reset</button>
+	
+</form>
+
+</body>
+</html>
